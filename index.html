@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+</head>
+    <style>
+        
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #0a152d, #0082c8, #0082c8, #0a153d);
+
+}
+
+.box {
+  background-color: rgba(10, 21, 45, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 4em;
+  border-radius: 10%;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  
+}
+
+.namepass {
+  padding: 1em;
+  border: none;
+  outline: none;
+  background-color: #2a6cea;
+  color: white;
+  border-radius: 0.5em;
+}
+
+.namepass:hover {
+  height: 1.8em;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+   
+}
+
+.botao {
+  width: 100%;
+  padding: 1em;
+  color:rgba(10, 21, 45);
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+.botao:hover {
+  padding: 0.8em;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+
+  padding: 40px;
+
+}
+}
+
+    </style>
+<body>
+     <div class=box>  
+        <h1>LOGIN</h1>
+        <input type="text" class="namepass" placeholder="Usuário"> </br></br>
+        <input type="password" class="namepass" placeholder="Senha"> </br></br>
+        <button type="submit" class="botao">Entrar</button>
+    </div>
+</body>
+</html>
